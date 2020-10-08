@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iPhone OS 11.2.2//EN
+N:Tan,John;;;
+FN: John Tan
+ORG:Bountie;
+TITLE:HR
+EMAIL;JohnTanHR@Bountie.io
+TEL;type=WORK;type=VOICE:+65 9821 8213
+item1.ADR;type=WORK;type=pref:;;Geylang East Avenue 2;;;370123;Singapore
+item1.X-ABADR:sg
+item2.URL;type=pref:https://bountie.io
+item2.X-ABLabel:_$!<HomePage>!$_
+END:VCARD
