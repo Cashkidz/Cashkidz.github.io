@@ -1,6 +1,6 @@
 {/* Profile section */}
-const profilepic = "pic.png";
-const logo = "logo.png";
+const profilepic = "HOL_circle_color.svg";
+const logo = "HOL_logo_grey.svg";
 const name = "John Tan";
 const title = "HR";
 const company = "Bountie";
