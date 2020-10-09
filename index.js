@@ -42,3 +42,4 @@ var arrows = document.getElementsByClassName('iconRightArrow');
 for (var i = 0; i < arrows.length; i++) {
   arrows[i].src=`./Assets/${iconRightArrow}`;
 }
+console.log(arrows[0].src)
