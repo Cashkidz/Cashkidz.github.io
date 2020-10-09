@@ -39,6 +39,6 @@ document.getElementById("iconWebsite").src = `./Assets/${iconWebsite}`;
 document.getElementById("iconAddress").src = `./Assets/${iconAddress}`;
 
 var arrows = document.getElementsByClassName('iconRightArrow');
-for (i = 0; i < arrows.length; ++i) {
-    arrows[i].src=`./Assets/${iconRightArrow}`;
+for (var i = 0; i < arrows.length; i++) {
+  arrows[i].src=`./Assets/${iconRightArrow}`;
 }
