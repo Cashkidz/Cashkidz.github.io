@@ -183,6 +183,7 @@ img.profile-pic {
 .imageholder{
 	width:25px;
 	height: 25px;
+	margin: 0 auto;
 }
 
 @media screen and (max-width: 600px) {
