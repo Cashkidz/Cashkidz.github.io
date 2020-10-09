@@ -180,6 +180,11 @@ img.profile-pic {
 	font-weight: 300;
 }
 
+.imageholder{
+	width:25px;
+	height: 25px;
+}
+
 @media screen and (max-width: 600px) {
   img.profile-pic {
     height: 60%;
