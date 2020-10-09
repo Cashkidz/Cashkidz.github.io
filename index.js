@@ -1,3 +1,4 @@
+{/* Profile section */}
 const profilepic = "pic.png";
 const logo = "logo.png";
 const name = "John Tan";
@@ -19,10 +20,16 @@ document.getElementById("email").innerHTML = email;
 document.getElementById("emailLink").href = `mailto:${email}`;
 document.getElementById("phone").innerHTML = phone.replace(/[\s()-]+/gi, "");
 document.getElementById("phoneLink").href = `tel:${phone}`;
-document.getElementById("website").innerHTML = website.replace(
-  /(^\w+:|^)\/\//,
-  ""
-);
+document.getElementById("website").innerHTML = website.replace(/(^\w+:|^)\/\//,"");
 document.getElementById("websiteLink").href = website;
 document.getElementById("companyAddress").innerHTML = companyAddress;
 document.getElementById("googleMapUrl").href = googleMapUrl;
+
+{/* Template section */}
+const iconAddress = "icon_address.jpg";
+const iconEmail = "icon_email.jpg";
+const iconPhone = "icon_phone.jpg";
+const iconWebsite = "icon_website.jpg";
+const rightArrow = "right-arrow.svg";
+
+document.getElementById("iconAddress").src = `./Assets/${iconAddress}`;
