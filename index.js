@@ -36,4 +36,4 @@ document.getElementById("iconEmail").src = `./Assets/${iconEmail}`;
 document.getElementById("iconPhone").src = `./Assets/${iconPhone}`;
 document.getElementById("iconWebsite").src = `./Assets/${iconWebsite}`;
 document.getElementById("iconAddress").src = `./Assets/${iconAddress}`;
-document.getElementById("iconRightArrow").src = `./Assets/${iconRightArrow}`;
+document.getElementsByClassName("iconRightArrow").src = `./Assets/${iconRightArrow}`;
