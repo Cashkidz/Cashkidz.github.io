@@ -26,10 +26,10 @@ document.getElementById("companyAddress").innerHTML = companyAddress;
 document.getElementById("googleMapUrl").href = googleMapUrl;
 
 {/* Template section */}
-const iconEmail = "icon_email.jpg";
-const iconPhone = "icon_phone.jpg";
-const iconWebsite = "icon_website.jpg";
-const iconAddress = "icon_address.jpg";
+const iconEmail = "icon_email.svg";
+const iconPhone = "icon_phone.svg";
+const iconWebsite = "icon_website.svg";
+const iconAddress = "icon_address.svg";
 const iconRightArrow = "right-arrow.svg";
 
 document.getElementById("iconEmail").src = `./Assets/${iconEmail}`;
