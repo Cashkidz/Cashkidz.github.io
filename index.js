@@ -26,14 +26,14 @@ document.getElementById("companyAddress").innerHTML = companyAddress;
 document.getElementById("googleMapUrl").href = googleMapUrl;
 
 {/* Template section */}
-const iconAddress = "icon_address.jpg";
 const iconEmail = "icon_email.jpg";
 const iconPhone = "icon_phone.jpg";
 const iconWebsite = "icon_website.jpg";
+const iconAddress = "icon_address.jpg";
 const iconRightArrow = "right-arrow.svg";
 
-document.getElementById("iconAddress").src = `./Assets/${iconAddress}`;
 document.getElementById("iconEmail").src = `./Assets/${iconEmail}`;
 document.getElementById("iconPhone").src = `./Assets/${iconPhone}`;
 document.getElementById("iconWebsite").src = `./Assets/${iconWebsite}`;
+document.getElementById("iconAddress").src = `./Assets/${iconAddress}`;
 document.getElementById("iconRightArrow").src = `./Assets/${iconRightArrow}`;
