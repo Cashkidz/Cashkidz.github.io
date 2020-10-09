@@ -37,4 +37,8 @@ document.getElementById("iconEmail").src = `./Assets/${iconEmail}`;
 document.getElementById("iconPhone").src = `./Assets/${iconPhone}`;
 document.getElementById("iconWebsite").src = `./Assets/${iconWebsite}`;
 document.getElementById("iconAddress").src = `./Assets/${iconAddress}`;
-document.getElementsByClassName("iconRightArrow").src = `./Assets/${iconRightArrow}`;
+
+var arrows = document.getElementsByClassName('iconRightArrow');
+for (i = 0; i < arrows.length; ++i) {
+    arrows[i].src=`./Assets/${iconRightArrow}`;
+}
