@@ -1,4 +1,5 @@
 {/* Profile section */}
+
 const profilepic = "HOL_circle_color.svg";
 const logo = "HOL_logo_grey.png";
 const name = "John Tan";
