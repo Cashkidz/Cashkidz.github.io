@@ -186,21 +186,6 @@ img.profile-pic {
 	margin: 0 auto;
 }
 
-.profileholder{
-
-}
-
-.logoholder{
-	width:114px;
-	height:66px;
-	margin: 0 auto;
-}
-
-#logo{
-	width:100%;
-	height: auto;
-}	
-
 @media screen and (max-width: 600px) {
   img.profile-pic {
     height: 60%;
